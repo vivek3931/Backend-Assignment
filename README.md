@@ -1,6 +1,3 @@
-Here’s a properly formatted **README.md** version of your internship assignment. You can copy–paste it directly:
-
-````markdown
 # Backend Development Internship Assignment
 
 This repository contains the solution for the **Backend Development Intern Assignment**.  
@@ -169,9 +166,10 @@ Deletes a record by its `id`.
 
 ## 📝 Submission
 
-* **GitHub Repo**: `<insert-link>`
-* **Deployed API URL**: ``
-* **Postman Collection**: `https://vivek-7274663.postman.co/workspace/Vivek's-Workspace~cb4270e9-9275-4747-889e-908b6ac7b961/collection/45047043-73f07e28-1714-49f7-8a06-2a293cdeec38?action=share&creator=45047043`
+- **GitHub Repo**: [Backend Assignment Repository](https://github.com/vivek3931/Backend-Assignment)  
+- **Deployed API URL**: [Live API on Render](https://backend-assignment-toou.onrender.com)  
+- **Postman Collection**: [View Collection on Postman](https://vivek-7274663.postman.co/workspace/Vivek's-Workspace~cb4270e9-9275-4747-889e-908b6ac7b961/collection/45047043-73f07e28-1714-49f7-8a06-2a293cdeec38?action=share&creator=45047043)  
+
 
 ### Short Note (Approach & Challenges)
 
