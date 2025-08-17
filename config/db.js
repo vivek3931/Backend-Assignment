@@ -7,6 +7,10 @@ const client = new Client({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   database: process.env.DB_NAME,
+  ssl: {
+    // This is crucial for connecting to Render's PostgreSQL.
+    rejectUnauthorized: false
+  }
 });
 
 async function connectToDatabase() {
@@ -15,8 +19,7 @@ async function connectToDatabase() {
     console.log('Connected to PostgreSQL database!');
   } catch (err) {
     console.error('Error connecting to the database:', err.message);
-    // You may want to exit the application if the database connection fails
-    process.exit(1); 
+    throw err;
   }
 }
 
