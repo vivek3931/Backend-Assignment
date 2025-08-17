@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+.DS_Store # macOS specific
+.env
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+
+.env
